@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Architecture Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+      background: #f7f4ef;
+    }
+
+    header {
+      padding: 80px 10%;
+      background: #1f1f1f;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 20px;
+      max-width: 650px;
+      line-height: 1.6;
+    }
+
+    nav {
+      padding: 20px 10%;
+      background: white;
+      position: sticky;
+      top: 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    nav a {
+      margin-right: 25px;
+      color: #222;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 25px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 22px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .skills span {
+      background: white;
+      padding: 10px 16px;
+      border-radius: 20px;
+      border: 1px solid #ddd;
+    }
+
+    footer {
+      padding: 40px 10%;
+      background: #1f1f1f;
+      color: white;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #c49a6c;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>
+      Architecture and sustainable design portfolio focused on environmental performance,
+      façade design, daylight analysis, and computational workflows.
+    </p>
+    <a class="button" href="mailto:your.email@gmail.com">Contact Me</a>
+  </header>
+
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="projects">
+    <h2>Selected Projects</h2>
+
+    <div class="projects">
+
+      <div class="card">
+        <img src="project1.jpg" alt="Project 1">
+        <div class="card-content">
+          <h3>Hybrid Double-Skin Façade Optimization</h3>
+          <p>
+            Performance-based façade design using daylight, thermal comfort,
+            and energy simulation to improve building performance.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="project2.jpg" alt="Project 2">
+        <div class="card-content">
+          <h3>Sustainable Office Building Design</h3>
+          <p>
+            Architectural and environmental design project focused on passive
+            strategies, solar control, and whole-building energy performance.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="project3.jpg" alt="Project 3">
+        <div class="card-content">
+          <h3>Parametric Façade System</h3>
+          <p>
+            Computational design workflow developed with Rhino, Grasshopper,
+            Ladybug, and Honeybee for climate-responsive envelope design.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am an architecture and building performance designer with an interest in
+      sustainable design, façade systems, environmental simulation, and digital
+      design workflows. My work combines architectural thinking with technical
+      performance analysis.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Tools & Skills</h2>
+    <div class="skills">
+      <span>Rhino</span>
+      <span>Grasshopper</span>
+      <span>Ladybug</span>
+      <span>Honeybee</span>
+      <span>IESVE</span>
+      <span>AutoCAD</span>
+      <span>Revit</span>
+      <span>Photoshop</span>
+      <span>Illustrator</span>
+      <span>Energy Simulation</span>
+      <span>Daylight Analysis</span>
+      <span>Façade Design</span>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@gmail.com</p>
+    <p>LinkedIn: linkedin.com/in/yourname</p>
+  </footer>
+
+</body>
+</html>
